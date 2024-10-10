@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Home {% endblock %}
+
+{% block body %}
+<div class="container">
+    <section class="row">
+        <h4 class="col-4 text-header">A propos de We Movies</h4>
+        <div class="col-8 d-flex justify-content-end align-items-center"><input type='text' id='search_movie' class="form-control" /><i class="fas fa-search search-auto-complete"></i></div>
+    </section>
+    <div class="best-movie">
+        {% include 'movie/best_movie.html.twig' %}
+    </div>
+    <div class="row" id="genre-movies">
+   
+        <div class="col-3" id="genre"></div>
+        <div class="col-9" id="movies"></div>
+        {% include 'movie/details.html.twig' %}         
+    </div>
+</div>    
+    
+{% endblock %}

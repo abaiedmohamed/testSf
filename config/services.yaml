@@ -1,0 +1,16 @@
+imports:
+    - { resource: values_sites_api.yaml }
+parameters:
+    API_KEY_THE_MOVIE_DB: '%env(API_KEY_THE_MOVIE_DB)%'
+
+services:
+    _defaults:
+        autowire: true      
+        autoconfigure: true 
+
+    App\:
+        resource: '../src/'
+        exclude:
+            - '../src/DependencyInjection/'
+            - '../src/Entity/'
+            - '../src/Kernel.php'

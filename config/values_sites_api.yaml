@@ -1,0 +1,10 @@
+parameters:
+    movieDB:
+        link: "https://api.themoviedb.org/3/"
+        link_picture: "https://image.tmdb.org/t/p/w200"
+        path_genre: "genre/movie/list"
+        path_discover_movie: "discover/movie"
+        path_top_rated_movie: "movie/top_rated"
+        path_search_movie: "search/movie"
+        path_movie: "movie"
+        path_videos: "videos"

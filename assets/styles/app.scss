@@ -1,0 +1,65 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    padding: 1%;
+    border: 1% solid;
+}
+
+.text-header {
+    text-decoration: underline;
+}
+
+.search-auto-complete {
+    margin-left: -3%;
+}
+
+.best-movie {
+    margin-top: 4%;
+}
+
+#title-best-movie {
+    margin-top: -16%;
+    margin-left: 13%;
+    color: #FFF;
+}
+
+#genre {
+    padding: 3%;
+    border: 1px solid #999696;
+}
+
+.form-check {
+    margin-bottom: 3% !important;
+}
+
+#genre-movies {
+    margin-top: 15%;
+
+}
+
+.img-movie {
+    height: 100% !important;
+}
+
+#pagination-container {
+    overflow: auto;
+}
+
+.movie-voteAverage {
+    padding: 0.5%;
+    background-color: #000;
+    color: #FF0;
+}
+
+.modal-header .close {
+    margin-left: auto;
+}
+
+.movie-details-title {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+@import "~bootstrap/scss/bootstrap";
