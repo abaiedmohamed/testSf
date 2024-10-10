@@ -38,6 +38,8 @@ exit
 
 make back-clear-cache
 
+make npm-run-watch 
+
 ```
 
 ### Pour lancer l'application : http://localhost:8741
