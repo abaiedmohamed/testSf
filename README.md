@@ -22,7 +22,7 @@ Movie API est une application développé par symfony 5.4 et php 8.2 pour la par
 ### Clone the repository
 
 ```bash
-git clone https://github.com/username/movie-database-api.git
+git clone [https://github.com/username/movie-database-api.git](https://github.com/abaiedmohamed/testSf.git)
 
 cd movie-database-api
 
