@@ -24,21 +24,21 @@ Movie API est une application développé par symfony 5.4 et php 8.2 pour la par
 ```bash
 git clone https://github.com/abaiedmohamed/testSf.git
 
-cd testSf (or testSf-master)
+cd testSf (or testSf-master) # faut pointer sur la branche master qui contient code
 
-make docker-start
+make docker-start # créer containers
 
-docker-compose exec www bash
+docker-compose exec www bash # lancer container www
 
-composer install 
+composer install # installer packages php
 
-npm install 
+npm install  # install packages JS
 
 exit
 
-make back-clear-cache
+make back-clear-cache # supprimer le cache
 
-make npm-run-watch 
+make npm-run-watch # pour lancer webpack
 
 ```
 
