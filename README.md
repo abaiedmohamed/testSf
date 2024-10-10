@@ -24,7 +24,7 @@ Movie API est une application développé par symfony 5.4 et php 8.2 pour la par
 ```bash
 git clone https://github.com/abaiedmohamed/testSf.git
 
-cd movie-database-api
+cd testSf (or testSf-master)
 
 make docker-start
 
